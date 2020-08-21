@@ -7,7 +7,7 @@
     <title>CODING GEEKS !</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="/library files/animate.css" style="type/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                     <button class="btn btn-success my-2 mr-2 my-sm-0" type="submit">Search</button>
                     <button type="button" class="btn btn-outline-danger" data-toggle="modal"
                         data-target="#staticBackdrop">Login</button>
-                        <button type="button" class="btn btn-outline-primary ml-2" data-toggle="modal"
+                    <button type="button" class="btn btn-outline-primary ml-2" data-toggle="modal"
                         data-target="#staticBackdrop1">Sign UP</button>
                 </form>
 
@@ -87,7 +87,8 @@
     <!--cards section-->
     <div class="container mt-4">
         <div class="row mb-2">
-            <div class="col-md-6 wow fadeInLeft data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-6" data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-out"
+                data-aos-anchor-placement="top-center" data-aos-mirror="false" data-aos-once="true">
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
@@ -103,7 +104,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 wow fadeInRight data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-easing="ease-in-out"
+                data-aos-mirror="false" data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
@@ -121,7 +123,8 @@
             </div>
         </div>
         <div class="row mb-2">
-            <div class="col-md-6 wow fadeInLeft data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-6" data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="top-center" data-aos-mirror="false" data-aos-once="true"">
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
@@ -137,7 +140,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 wow fadeInRight data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-6"data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="top-center" data-aos-mirror="false" data-aos-once="true">
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
@@ -161,7 +165,8 @@
 
     <div class="container">
         <hr>
-        <div class="row featurette d-flex justify-content-center align-items-center wow flipInX  data-wow-duration="2s" data-wow-delay="1s">
+        <div class="row featurette d-flex justify-content-center align-items-center "data-aos="slide-right" data-aos-duration="1400" data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="top-center" data-aos-mirror="false" data-aos-once="true">
             <div class="col-md-7 order-md-2 ">
                 <h2 class="featurette-heading "> First, solve the problem. <span class="text-muted"> Then, write the
                         code</span></h2>
@@ -176,7 +181,8 @@
 
             </div>
         </div>
-        <div class="row featurette d-flex justify-content-center align-items-center wow flipInX data-wow-duration="2s" data-wow-delay="1s">
+        <div class="row featurette d-flex justify-content-center align-items-center "data-aos="slide-left" data-aos-duration="1400" data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="top-center" data-aos-mirror="false" data-aos-once="true">
             <div class="col-md-7 ">
                 <h2 class="featurette-heading ">Code is like humor. <span class="text-muted"> When you have to explain
                         it, it’s bad.</span></h2>
@@ -258,29 +264,33 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
                         </div>
                         <div class="form-group">
                             <label for="confirmPassword1"> Confirm Password</label>
-                            <input type="password" class="form-control" id="confirmPassword1" placeholder="Confirm Password">
+                            <input type="password" class="form-control" id="confirmPassword1"
+                                placeholder="Confirm Password">
                         </div>
                         <div class="form-group">
                             <label for="Age"> Age</label>
                             <input type="number" class="form-control" id="Age" placeholder="Age">
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="male" checked>
+                            <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="male"
+                                checked>
                             <label class="form-check-label" for="exampleRadios1">
-                              Male
+                                Male
                             </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gender" id="exampleRadios2" value="option2">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="exampleRadios2"
+                                value="option2">
                             <label class="form-check-label" for="exampleRadios2">
-                              Female
+                                Female
                             </label>
-                          </div>
-                        </form>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="submit" class="btn btn-primary">signup</button>
@@ -302,9 +312,9 @@
             </div>
         </footer>
     </div>
-    <script src="/library files/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    new WOW().init();
+        AOS.init();
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
